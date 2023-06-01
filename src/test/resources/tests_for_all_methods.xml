@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Man and Woman tests">
+
+    <test name="Test of all methods">
+        <classes>
+            <class name="ManWomanTests"/>
+        </classes>
+    </test>
+</suite>

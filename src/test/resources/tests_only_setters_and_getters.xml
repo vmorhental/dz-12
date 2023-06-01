@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Man and Woman setters and getters only tests">
+
+    <test name="Tests of only getters and setters">
+        <groups>
+            <run>
+                <include name="setter and getter" />
+            </run>
+        </groups>
+        <classes>
+            <class
+                    name="ManWomanTests" />
+        </classes>
+    </test>
+</suite>
